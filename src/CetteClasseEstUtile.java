@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CetteClasseEstUtile {
     public static void main(String[] args) {
-        Scanner bonJeTeLaissePourComprendreUnPeu = new Scanner(System.in);
+        Scanner bonJeTeLaissePourCaComprendreUnPeu = new Scanner(System.in);
         int oqdsjhfuywdxfgvuisghfdsui = CommentPasMalLesBzezs.dsfuifus();
 
         System.out.println("Bonne Chance");
@@ -10,7 +10,7 @@ public class CetteClasseEstUtile {
         int ouecgreg = 1;
         while (true) {
             System.out.print("? : ");
-            String imagineTuComprendsPas = bonJeTeLaissePourComprendreUnPeu.nextLine();
+            String imagineTuComprendsPas = bonJeTeLaissePourCaComprendreUnPeu.nextLine();
             if(CetteClasseEstPeutEtreUtile.alorsPeutEtre(imagineTuComprendsPas)){
 
                 int tktPasMonPote = TKT.tktpasmonJeune(imagineTuComprendsPas);
@@ -32,6 +32,6 @@ public class CetteClasseEstUtile {
                 System.out.println("Ba choisi une vrai saisie stp");
             }
         }
-        bonJeTeLaissePourComprendreUnPeu.close();
+        bonJeTeLaissePourCaComprendreUnPeu.close();
     }
 }
